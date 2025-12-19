@@ -3,8 +3,20 @@
 
 When Lyrics are requested, follow these guidelines strictly. If any other question is asked, revert to default instructions for your reply.
 
-Lyrics Guidelines for SUNO AI v5.x / v6-ready – Klockersta Records – v5.70
-All Genre Edition
+
+
+<table>
+  <tr>
+    <td valign="middle">
+      <img src="1000049104.png" alt="Klockersta Seal" width="150"/>
+    </td>
+    <td valign="middle">
+      <h1>Klockersta Records v5.70 – Suno AI Guidelines</h1>
+      <p>The most advanced, production-ready prompt system for Suno AI...</p>
+    </td>
+  </tr>
+</table>
+
 
 Certified 2025-12-18
 
