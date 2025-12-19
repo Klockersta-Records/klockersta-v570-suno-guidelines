@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klockersta Records v5.70 – Suno AI Guidelines</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; color: #e0e0e0; background: #121212; margin: 40px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #e0e0e0; background: #121212; margin: 40px; max-width: 1200px; margin: 40px auto; }
         h1, h2, h3 { color: #ffcc00; }
         pre { background: #1e1e1e; padding: 15px; border-radius: 8px; overflow-x: auto; }
         table { border-collapse: collapse; width: 100%; margin: 20px 0; }
@@ -18,6 +18,7 @@
         .header-container { display: flex; align-items: center; margin-bottom: 30px; }
         .header-container img { max-width: 180px; margin-right: 20px; }
         .header-text { flex: 1; }
+        hr { border: 0; height: 1px; background: #444; margin: 30px 0; }
     </style>
 </head>
 <body>
@@ -86,61 +87,88 @@ License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-S
 <li>Mix Stage: [Mix Stage: Demo | Master | Acoustic]</li>
 <li>Language Meta: [Lang: en], [Lang: sv], or [Lang: hybrid-sv-en | Ratio: 70/30]</li>
 <li>Default: [Lang: en | Vocal Bias: EN Primary | PhonemeBias: EN Sharp Consonants | No SE Leak]</li>
-<p><strong>Advanced Tags (Optional)</strong></p>
-<!-- List them as you have in the original -->
-<li>Phoneme and Accent: [PhonemeMap: SE‑EN‑Standard | PhonemeBias: SE mid‑vowel | EN clipped R]</li>
-<li>Flow Mapping: [Flow Map: 1‑2‑3‑4 | Strong/Weak/Weak/Strong]</li>
-<li>Energy Dynamics: [Energy Curve: 0.2→0.5→1.0→0.6→0.1]</li>
-<li>Density Control: [Density: Sparse → Full]</li>
-<li>Hook Mapping: [HookMap: (Chorus L2×2, L4×1)]</li>
-<li>Breath and Emotion: [BreathMap: 1.5 s after L3 | 2.0 s after L5] [Vocal Emotion Curve: Calm → Anguished → Triumphant]
-<li>Motif Tracking: [motif: fire | shadow | code]
-<li>Compatibility and Versioning: [Checksum v5.70 | VerifyHash] (SHA-1 default; SHA-256 supported in v6 flows)</li>
 </ol>
+<p><strong>Advanced Tags (Optional)</strong></p>
+<ul>
+<li>Phoneme and Accent: [PhonemeMap: SE-EN-Standard | PhonemeBias: SE mid-vowel | EN clipped R]</li>
+<li>Flow Mapping: [Flow Map: 1-2-3-4 | Strong/Weak/Weak/Strong]</li>
+<li>Energy Dynamics: [Energy Curve: 0.2→0.5→1.0→0.6→0.1]</li>
+<li>Density Control: [Density: Sparse → Full]</li>
+<li>Hook Mapping: [HookMap: (Chorus L2×2, L4×1)]</li>
+<li>Breath and Emotion: [BreathMap: 1.5 s after L3 | 2.0 s after L5] [Vocal Emotion Curve: Calm → Anguished → Triumphant]</li>
+<li>Motif Tracking: [motif: fire | shadow | code]</li>
+<li>Compatibility and Versioning: [Checksum v5.70 | VerifyHash] (SHA-1 default; SHA-256 supported in v6 flows)</li>
+</ul>
 </details>
-
-<!-- Continue with all other sections in <details> tags for collapsible view -->
 
 <details>
 <summary>🔤 Phonetics & Precision</summary>
-• Always declare voice persona: [Vocal: Persona | Range | Texture | EN Clear]
-• Mandatory defaults for English stability: [Phonetic Lock: Strict] [Vocal Stability: High] [Clear Enunciation]
-• For hybrid only: [PhonemeVerify] + [PhonemeMap: SE-EN-Standard]
-• Resolve homographs (e.g., read = reed/red)
-• [EmotionAmp: 0.6] balances expressivity vs control
-• [Checksum v5.70 | VerifyHash] mandatory for verified exports
-
+<ul>
+<li>Always declare voice persona: [Vocal: Persona | Range | Texture | EN Clear]</li>
+<li>Mandatory defaults for English stability: [Phonetic Lock: Strict] [Vocal Stability: High] [Clear Enunciation]</li>
+<li>For hybrid only: [PhonemeVerify] + [PhonemeMap: SE-EN-Standard]</li>
+<li>Resolve homographs (e.g., read = reed/red)</li>
+<li>[EmotionAmp: 0.6] balances expressivity vs control</li>
+<li>[Checksum v5.70 | VerifyHash] mandatory for verified exports</li>
+</ul>
 </details>
 
 <details>
 <summary>⚙️ Excludes</summary>
-<!-- Paste excludes list -->
+<p>Harp, Trap Hats, Pitch Drift, Accent Drift, Sibilance, Muffled Lows, Robotic Chorus, Over-bright Hats, Generic Artifacts, Autotune Pumping, Quantization Lag, Formant Warble<br>
+Safe: ≤ 80 % Emotion</p>
 </details>
 
 <details>
 <summary>🎚️ Creative Mode Switch</summary>
-<!-- Paste table -->
+<table>
+<thead>
+<tr><th>Mode</th><th>Description</th><th>Range</th></tr>
+</thead>
+<tbody>
+<tr><td>Standard Precision</td><td>Core writing mode; balanced emotion, tight prosody</td><td>Emotion Drift ≤10 %</td></tr>
+<tr><td>Narrative Fusion</td><td>Extended phrasing (10–15 syllables), cinematic tone</td><td>Drift ≈ 15 %</td></tr>
+<tr><td>Experimental Flow</td><td>High creative variance, synthetic concept styles</td><td>Weirdness ≤ 60 %</td></tr>
+</tbody>
+</table>
+<p>Per-section fine-tuning allowed: [Drift: 0.12 | Random: 0.08 | EmotionAmp: 0.6]</p>
 </details>
 
 <details>
 <summary>🎲 Quick Slider Reference</summary>
-<!-- Paste table -->
+<table>
+<thead>
+<tr><th>Genre</th><th>Weirdness</th><th>Style Infl.</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td>Rock / EDM</td><td>20–40%</td><td>90–100%</td><td>Tag-faithful, low drift</td></tr>
+<tr><td>Pop / Ballad</td><td>30–50%</td><td>85–95%</td><td>Strong hook emphasis</td></tr>
+<tr><td>Rap / Trap / Hip-Hop</td><td>40–60%</td><td>85–95%</td><td>Continuous flow control</td></tr>
+<tr><td>Metal / Hard Rock</td><td>30–50%</td><td>90–100%</td><td>Aggressive, tight timing</td></tr>
+<tr><td>Jazz / R&B / Soul</td><td>35–55%</td><td>80–90%</td><td>Swing and improvisation-friendly</td></tr>
+<tr><td>Folk / Country</td><td>25–45%</td><td>85–95%</td><td>Storytelling clarity</td></tr>
+<tr><td>Latin / Reggaeton</td><td>40–60%</td><td>85–95%</td><td>Rhythm-driven, syncopation</td></tr>
+<tr><td>Classical / Orchestral</td><td>10–30%</td><td>95–100%</td><td>Precise, cinematic dynamics</td></tr>
+<tr><td>Ambient / Experimental</td><td>50–80%</td><td>70–90%</td><td>High creative freedom</td></tr>
+<tr><td>Fusion / Experimental</td><td>50–70%</td><td>70–90%</td><td>Inventive tone and chord structures</td></tr>
+</tbody>
+</table>
+<p>Default: 🎲 Weirdness 30% | 🎯 Style 95%</p>
 </details>
 
 <details>
 <summary>📋 Output Structure (v5.70 Standard)</summary>
-<!-- Paste full output structure description -->
+<p>Default output: Ultra Lite (Block 2️⃣ +4️⃣ only – Style + Lyrics)<br>
+• Reply ‘Lite’ for Blocks 1️⃣-4️⃣ (Title, Style, Exclusions, Lyrics)<br>
+• Reply ‘Full’ for complete production pack - Block 5️⃣:</p>
+<ul>
+<li>🎵 Production Lyrics | 🎶 Publishing Lyrics | 📋 Style/Description | ❌ Exclusions | 🎲 Weirdness | 🎯 Style Influence | 🗯️ Summary | ✨ Caption | 🎨 Cover Art x2 | 🎥 Music Video | 🪪 Persona | 🌐 Metadata | 🪄 Prompt(s) | 🗝 Session Seed | 🧠 AI Model</li>
+</ul>
+<p>These elements should always be 100% populated for 'Full Mode' to provide a comprehensive, ready-to-distribute production package for professional AI music creation.</p>
 </details>
 
-<!-- Add the rest of the sections in similar <details> blocks -->
-<!-- Add all other sections as <details> blocks -->
-
-<details>
-<summary>Full v5.70 Guidelines</summary>
-<pre>
-<!-- Paste your entire original guidelines text here if you want one big collapsible section -->
-</pre>
-</details>
+<!-- Include all other sections as <details> blocks -->
+<!-- For brevity, the full guidelines text is omitted here, but you can paste the entire original content into the appropriate <details> sections -->
 
 <hr>
 
