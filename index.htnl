@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klockersta Records v5.70 – Suno AI Guidelines</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #e0e0e0; background: #121212; margin: 40px; }
+        h1, h2, h3 { color: #ffcc00; }
+        pre { background: #1e1e1e; padding: 15px; border-radius: 8px; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #444; padding: 10px; text-align: left; }
+        th { background: #2a2a2a; }
+        code { background: #2a2a2a; padding: 2px 6px; border-radius: 4px; }
+        details { margin: 20px 0; background: #1e1e1e; padding: 10px; border-radius: 8px; }
+        summary { cursor: pointer; font-weight: bold; color: #ffcc00; }
+        a { color: #00ccff; }
+        .header-container { display: flex; align-items: center; margin-bottom: 30px; }
+        .header-container img { max-width: 180px; margin-right: 20px; }
+        .header-text { flex: 1; }
+    </style>
+</head>
+<body>
+
+<div class="header-container">
+    <img src="1000049104.png" alt="Optimized by Klockersta Records" width="180">
+    <div class="header-text">
+        <h1>Klockersta Records v5.70 – Suno AI Guidelines</h1>
+        <p><strong>All Genre Edition</strong> | Certified 2025-12-18</p>
+        <p>Optimized for ≈100% tokenizer fidelity through the ReMi v5.5 Multi-Section Pipeline.<br>
+        Integrates Dynamic Density, Energy Curve, Lang Ratio, and MotifMap upgrades for advanced Suno AI 6-ready workflow.</p>
+    </div>
+</div>
+
+<p><strong>Made for creators who refuse to make forgettable music.</strong><br>
+Free for everyone • Support the project: <a href="https://ko-fi.com/klockersta">Ko-fi</a><br>
+License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+
+<hr>
+
+<details>
+<summary>✨ Purpose</summary>
+<p>Unified human-AI lyric + production standard ensuring consistent phonetic realism, rhythmic precision, and adaptable emotional expression. Ideal for mixed-language (English / Swedish) genre fusion across Pop, Rock, EDM, Cinematic, as well as Hip-Hop/Trap, Folk/Acoustic, Jazz, Classical/Orchestral, Metal, Country, Latin, R&B/Soul, World Music, Ambient/Experimental, and more.</p>
+</details>
+
+<details>
+<summary>🧩 Core Structure</summary>
+<p>Sections (fixed order if unspecified; adaptable for non-Pop structures):<br>
+[Intro] [Verse 1] [Pre-Chorus] [Chorus] [Verse 2] [Micro-Bridge] [Bridge] [Build] [Drop] [Outro]</p>
+<ul>
+<li>Verses: 4–6 lines (8–12 in rap/hip-hop)</li>
+<li>Chorus: 2–4 lines (repetition hooks encouraged)</li>
+<li>Micro-Bridge: optional 2 lines for emotional callback</li>
+<li>Build/Drop: optional for non-EDM/rock genres — omit or replace with [Crescendo] / [Breakdown] as needed</li>
+<li>Blank line separates sections</li>
+</ul>
+</details>
+
+<details>
+<summary>✍️ Syllable & Rhythm Control</summary>
+<table>
+<thead>
+<tr><th>Style</th><th>Range/line</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td>Pop / Rock / EDM</td><td>6–12</td><td>Tight prosody, modern phrasing lock</td></tr>
+<tr><td>Rap / Trap / Hip-Hop</td><td>8–16</td><td>Maintains flow clarity and internal rhyme</td></tr>
+<tr><td>Ballad/Folk/Acoustic</td><td>6–14 (+ holds)</td><td>Expressive phrasing and melodic freedom</td></tr>
+<tr><td>Jazz / R&B / Soul</td><td>7–14</td><td>Swing feel, syncopation, vocal runs allowed</td></tr>
+<tr><td>Metal / Hard Rock</td><td>6–12</td><td>Punchy, aggressive delivery; double-time verses common</td></tr>
+<tr><td>Country / Americana</td><td>8–14</td><td>Storytelling flow, conversational tone</td></tr>
+<tr><td>Latin / Reggaeton</td><td>7–13</td><td>Syncopated rhythms, call-and-response hooks</td></tr>
+<tr><td>Classical / Orchestral</td><td>4–10</td><td>Flexible phrasing, emphasis on dramatic arc</td></tr>
+<tr><td>Ambient / Experimental</td><td>4–10</td><td>Sparse, atmospheric, non-rhyming possible</td></tr>
+<tr><td>Build/Drop/Breakdown</td><td>4–6 words</td><td>High-impact emphasis, rhythmic compression</td></tr>
+</tbody>
+</table>
+</details>
+
+<details>
+<summary>🏷️ Tags & Metadata</summary>
+<p>Apply stacked tags for comprehensive control:</p>
+<ol>
+<li>Stack 1–3 genres, 1 mood, and 1–3 instruments</li>
+<li>Vocal FX & Voice Profile: [Vocal FX: Clear Enunciation | Breath Control | Room 1.8 s]</li>
+<li>Mix Stage: [Mix Stage: Demo | Master | Acoustic]</li>
+<li>Language Meta: [Lang: en], [Lang: sv], or [Lang: hybrid-sv-en | Ratio: 70/30]</li>
+<li>Default: [Lang: en | Vocal Bias: EN Primary | PhonemeBias: EN Sharp Consonants | No SE Leak]</li>
+<p><strong>Advanced Tags (Optional)</strong></p>
+<!-- List them as you have in the original -->
+<li>Phoneme and Accent: [PhonemeMap: SE‑EN‑Standard | PhonemeBias: SE mid‑vowel | EN clipped R]</li>
+<li>Flow Mapping: [Flow Map: 1‑2‑3‑4 | Strong/Weak/Weak/Strong]</li>
+<li>Energy Dynamics: [Energy Curve: 0.2→0.5→1.0→0.6→0.1]</li>
+<li>Density Control: [Density: Sparse → Full]</li>
+<li>Hook Mapping: [HookMap: (Chorus L2×2, L4×1)]</li>
+<li>Breath and Emotion: [BreathMap: 1.5 s after L3 | 2.0 s after L5] [Vocal Emotion Curve: Calm → Anguished → Triumphant]
+<li>Motif Tracking: [motif: fire | shadow | code]
+<li>Compatibility and Versioning: [Checksum v5.70 | VerifyHash] (SHA-1 default; SHA-256 supported in v6 flows)</li>
+</ol>
+</details>
+
+<!-- Continue with all other sections in <details> tags for collapsible view -->
+
+<details>
+<summary>🔤 Phonetics & Precision</summary>
+• Always declare voice persona: [Vocal: Persona | Range | Texture | EN Clear]
+• Mandatory defaults for English stability: [Phonetic Lock: Strict] [Vocal Stability: High] [Clear Enunciation]
+• For hybrid only: [PhonemeVerify] + [PhonemeMap: SE-EN-Standard]
+• Resolve homographs (e.g., read = reed/red)
+• [EmotionAmp: 0.6] balances expressivity vs control
+• [Checksum v5.70 | VerifyHash] mandatory for verified exports
+
+</details>
+
+<details>
+<summary>⚙️ Excludes</summary>
+<!-- Paste excludes list -->
+</details>
+
+<details>
+<summary>🎚️ Creative Mode Switch</summary>
+<!-- Paste table -->
+</details>
+
+<details>
+<summary>🎲 Quick Slider Reference</summary>
+<!-- Paste table -->
+</details>
+
+<details>
+<summary>📋 Output Structure (v5.70 Standard)</summary>
+<!-- Paste full output structure description -->
+</details>
+
+<!-- Add the rest of the sections in similar <details> blocks -->
+<!-- Add all other sections as <details> blocks -->
+
+<details>
+<summary>Full v5.70 Guidelines</summary>
+<pre>
+<!-- Paste your entire original guidelines text here if you want one big collapsible section -->
+</pre>
+</details>
+
+<hr>
+
+<p><em>Built by Klockersta Records — where unforgettable music is forged.</em></p>
+
+</body>
+</html>
